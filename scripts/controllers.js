@@ -34,7 +34,7 @@ angular.module('angularRestfulAuth')
                 confirmationPassword: $scope.confirmationPassword
             }
 
-            Main.save(formData, function(res) {
+            Main.signup(formData, function(res) {
                 if (res.type == false) {
                     alert(res.data)
                 } else {
