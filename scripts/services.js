@@ -37,7 +37,7 @@ angular.module('angularRestfulAuth')
         var currentUser = getUserFromToken();
 
         return {
-            save: function(data, success, error) {
+            signup: function(data, success, error) {
                 $http.post(baseUrl + '/account/registration', data).success(success).error(error)
             },
             signin: function(data, success, error) {
