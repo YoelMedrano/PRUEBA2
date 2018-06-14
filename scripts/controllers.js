@@ -31,7 +31,7 @@ angular.module('angularRestfulAuth')
                  dateOfBirth : $scope.dateOfBirth ,
                  email : $scope.email,
                  password : $scope.password,
-                 confirmationPassword : $scope.confirmationPassword
+                 confirmationPassword : $scope.password
             }
 
             Main.signup(formData, function(res) {
