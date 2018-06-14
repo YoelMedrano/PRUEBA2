@@ -19,7 +19,7 @@ angular.module('angularRestfulAuth')
                     $localStorage.token = res.token;
                     window.location = "/";    
                 }
-            }, function(res) {
+            }, function() {
                 $rootScope.error = 'Failed to signin';
             })
         };
