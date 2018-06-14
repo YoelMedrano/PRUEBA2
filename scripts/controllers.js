@@ -38,7 +38,7 @@ angular.module('angularRestfulAuth')
                 if (res.type == false) {
                     alert(res.data)
                 } else {
-                    $localStorage.token = res.token;
+                    $localStorage.token = res.data.token;
                     window.location = "/"    
                 }
             }, function() {
