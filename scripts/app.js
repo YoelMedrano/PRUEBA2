@@ -13,7 +13,7 @@ angular.module('angularRestfulAuth', [
             controller: 'HomeCtrl'
         }).
         when('/login', {
-            templateUrl: 'partials/userperfil.html',
+            templateUrl: 'partials/login.html',
             controller: 'HomeCtrl'
         }).
         when('/registration', {
